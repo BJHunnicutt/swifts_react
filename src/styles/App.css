@@ -1,17 +1,24 @@
-header {
+.nav {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.5);
   width: 100vw;
+  border: none;
 }
 
 #nav-dropdown img {
   height: 30px;
 }
 
-#chapman-school {
+#chapman-school, #chapman-school-overlay {
   position: fixed;
   text-align: center;
-  width: 90vw;
+  width: 80vw;
   bottom: 25px;
-  margin: 0 5vw;
+  margin: 0 10vw;
+}
+
+#grass {
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }

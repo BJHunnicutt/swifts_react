@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Navbar, Nav, NavDropdown, MenuItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   handleSelect(eventKey) {
     // event.preventDefault();
-    console.log(`selected ${eventKey}`);
   }
 
   render() {
@@ -35,7 +35,7 @@ class Header extends Component {
           </NavDropdown>
 
           <Navbar.Brand>
-            <a href="/">PDX SWIFTS</a>
+            <Link to="/">PDX SWIFTS</Link>
           </Navbar.Brand>
         </Nav>
       </header>
