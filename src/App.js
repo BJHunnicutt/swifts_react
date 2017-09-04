@@ -12,9 +12,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <h2>When will they go in?</h2>
-        </div>
 
         {/* Render the header */}
         <Header />

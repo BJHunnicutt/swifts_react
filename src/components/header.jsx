@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = (props) => {
   return (
     <header>
+      <h3>PDX SWIFTS</h3>
       <ul>
         <li>
           <Link to="/">Countdown</Link>

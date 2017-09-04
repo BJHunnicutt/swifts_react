@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import P5Wrapper from '../components/p5_test'
+
 // import PropTypes from 'prop-types'
 // import { connect } from 'react-redux'
 
@@ -12,8 +14,7 @@ class CountdownPage extends Component {
     // const { selectedSubreddit, posts, isFetching, lastUpdated } = this.props
     return (
       <div>
-        <p>test test test test</p>
-        <hr/>
+        <P5Wrapper />
       </div>
     )
   }
