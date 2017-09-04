@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 
 // Pages
-// import ContactPage from './containers/contact.jsx'
-// import AboutPage from './containers/about.jsx'
+import Header from './components/header'
+// import ContactPage from './containers/contact'
+// import AboutPage from './containers/about'
 import CountdownPage from './containers/countdown.js'
 
 
@@ -12,20 +13,11 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Welcome to React</h2>
+          <h2>When will they go in?</h2>
         </div>
 
-        <ul>
-          <li>
-            <Link to="/">Countdown</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
+        {/* Render the header */}
+        <Header />
 
         <Route path="/" exact component={CountdownPage} />
         <Route path="/about" />
