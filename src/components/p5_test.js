@@ -24,6 +24,7 @@ class P5Wrapper extends Component {
     p.setup = function () {
       p.createCanvas(window.innerWidth, window.innerHeight);
       p.background(123, 163, 176);
+      p.noLoop();
     };
 
     p.draw = function () {
@@ -47,6 +48,7 @@ class P5Wrapper extends Component {
     p.windowResized = function () {
       console.log('sketch window resize:', window.innerWidth);
       p.resizeCanvas(window.innerWidth, window.innerHeight, p.noRedraw);
+      p.background(123, 163, 176);
     }
 
   };

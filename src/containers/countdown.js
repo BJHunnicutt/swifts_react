@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import P5Wrapper from '../components/p5_test'
+import P5Wrapper from '../components/swift_background'
 
 // import PropTypes from 'prop-types'
 // import { connect } from 'react-redux'

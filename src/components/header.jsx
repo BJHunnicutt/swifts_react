@@ -9,12 +9,10 @@ class Header extends Component {
   }
 
   render() {
-    const hamburgerIcon = `<img src="%PUBLIC_URL%/swift.png" >`;
-
     return (
       <header>
         <Nav bsStyle="tabs" onSelect={this.handleSelect}>
-          <NavDropdown eventKey="1" title={<img src="./swift.png" />} id="nav-dropdown" noCaret>
+          <NavDropdown eventKey="1" title={<img src="./swift.png" alt="Dropdown Icon"/>} id="nav-dropdown" noCaret>
             <LinkContainer to="/" activeClassName="none">
               <MenuItem eventKey={1.1} >
                   Countdown
