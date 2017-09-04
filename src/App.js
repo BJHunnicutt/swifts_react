@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom'
 // Pages
 import Header from './components/header'
 // import ContactPage from './containers/contact'
-// import AboutPage from './containers/about'
+import AboutPage from './components/about'
 import CountdownPage from './containers/countdown.js'
 
 
@@ -17,7 +17,7 @@ class App extends Component {
         <Header />
 
         <Route path="/" exact component={CountdownPage} />
-        <Route path="/about" />
+        <Route path="/about" component={AboutPage} />
         <Route path="/contact" />
       </div>
     );

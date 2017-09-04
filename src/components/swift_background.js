@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import p5 from 'p5'
 
 // Pass in as a prop eventually
-const time_of_day = 'dusk';
+const time_of_day = 'day';
 
 class P5Wrapper extends Component {
   /**
